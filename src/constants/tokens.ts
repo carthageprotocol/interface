@@ -138,6 +138,13 @@ export const DAI_POLYGON = new Token(
   'DAI',
   'Dai Stablecoin'
 )
+export const DAI_CANDLE = new Token(
+  SupportedChainId.CANDLE,
+  '0xad43669cbAC863e33449d423261E525de8da0Ff4',
+  18,
+  'DAI',
+  'Dai Stablecoin'
+)
 export const USDT_POLYGON = new Token(
   SupportedChainId.POLYGON,
   '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
@@ -370,6 +377,29 @@ export class ExtendedEther extends Ether {
     throw new Error('Unsupported chain ID')
   }
 
+
+  function isMatic(chainId: number): chainId is SupportedChainId.POLYGON | SupportedChainId.POLYGON_MUMBAI {
+    return chainId === SupportedChainId.POLYGON_MUMBAI || chainId === SupportedChainId.POLYGON
+  }
+
+  class CandleNativeCurrency extends NativeCurrency {
+    equals(other: Currency): boolean {
+      return other.isNative && other.chainId === this.chainId
+    }
+
+    get wrapped(): Token {
+      if (!isCandle(this.chainId)) throw new Error('Not candle')
+      const wrapped = WRAPPED_NATIVE_CURRENCY[this.chainId]
+      invariant(wrapped instanceof Token)
+      return wrapped
+    }
+
+    public constructor(chainId: number) {
+      if (!isCandle(chainId)) throw new Error('Not candle')
+      super(chainId, 18, 'CNDL', 'Candle CNDL')
+    }
+  }
+
   private static _cachedExtendedEther: { [chainId: number]: NativeCurrency } = {}
 
   public static onChain(chainId: number): ExtendedEther {
@@ -381,8 +411,8 @@ const cachedNativeCurrency: { [chainId: number]: NativeCurrency } = {}
 export function nativeOnChain(chainId: number): NativeCurrency {
   return (
     cachedNativeCurrency[chainId] ??
-    (cachedNativeCurrency[chainId] = isMatic(chainId)
-      ? new MaticNativeCurrency(chainId)
+    (cachedNativeCurrency[chainId] = isCandle(chainId)//Changed from isMatic to isCandle
+      ? new CandleNativeCurrency(chainId)//Changed from MaticCandleNative to CandleNativeCurrency
       : ExtendedEther.onChain(chainId))
   )
 }
