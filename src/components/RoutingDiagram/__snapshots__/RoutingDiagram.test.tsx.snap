@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders multi route 1`] = `
+<DocumentFragment>
+  <div
+    class="RoutingDiagram__Wrapper-sc-122uuvz-0 jMDBet css-vurnku"
+  >
+    <div
+      class="sc-bczRLJ Row-sc-4c8llc-0 RoutingDiagram__RouteContainerRow-sc-122uuvz-1 jITePI kelnLf jwxHsO"
+    >
+      CurrencyLogo currency=USDC
+      <div
+        class="sc-bczRLJ Row-sc-4c8llc-0 RoutingDiagram__RouteRow-sc-122uuvz-2 jITePI kelnLf eSvHoU"
+      >
+        <div
+          class="RoutingDiagram__DottedLine-sc-122uuvz-4 dYNhNP"
+        >
+          <svg
+            class="RoutingDiagram__DotColor-sc-122uuvz-5 laMTQP"
+          >
+            dot_line.svg
+          </svg>
+        </div>
+        <div
+          class="Badge-sc-1my0wcs-0 RoutingDiagram__OpaqueBadge-sc-122uuvz-6 ezcJLO fybKRo"
+        >
+          <div
+            class="Badge-sc-1my0wcs-0 RoutingDiagram__ProtocolBadge-sc-122uuvz-7 ezcJLO BLtmt"
+          >
+            <div
+              class="theme__TextWrapper-sc-198137d-0 fzeHho RoutingDiagram__BadgeText-sc-122uuvz-8 jMAFFL css-15li2d9"
+            >
+              V2
+            </div>
+          </div>
+          <div
+            class="theme__TextWrapper-sc-198137d-0 fzeHho RoutingDiagram__BadgeText-sc-122uuvz-8 jMAFFL css-1aekuku"
+            style="min-width: auto;"
+          >
+            75%
+          </div>
+        </div>
+        <div
+          class="sc-bczRLJ Row-sc-4c8llc-0 Row__AutoRow-sc-4c8llc-3 cYXLjH kelnLf cSpPAk"
+          style="justify-content: space-evenly; z-index: 2;"
+          width="100%"
+        >
+          Popover
+        </div>
+      </div>
+      CurrencyLogo currency=DAI
+    </div>
+    <div
+      class="sc-bczRLJ Row-sc-4c8llc-0 RoutingDiagram__RouteContainerRow-sc-122uuvz-1 jITePI kelnLf jwxHsO"
+    >
+      CurrencyLogo currency=USDC
+      <div
+        class="sc-bczRLJ Row-sc-4c8llc-0 RoutingDiagram__RouteRow-sc-122uuvz-2 jITePI kelnLf eSvHoU"
+      >
+        <div
+          class="RoutingDiagram__DottedLine-sc-122uuvz-4 dYNhNP"
+        >
+          <svg
+            class="RoutingDiagram__DotColor-sc-122uuvz-5 laMTQP"
+          >
+            dot_line.svg
+          </svg>
+        </div>
+        <div
+          class="Badge-sc-1my0wcs-0 RoutingDiagram__OpaqueBadge-sc-122uuvz-6 ezcJLO fybKRo"
+        >
+          <div
+            class="Badge-sc-1my0wcs-0 RoutingDiagram__ProtocolBadge-sc-122uuvz-7 ezcJLO BLtmt"
+          >
+            <div
+              class="theme__TextWrapper-sc-198137d-0 fzeHho RoutingDiagram__BadgeText-sc-122uuvz-8 jMAFFL css-15li2d9"
+            >
+              V3
+            </div>
+          </div>
+          <div
+            class="theme__TextWrapper-sc-198137d-0 fzeHho RoutingDiagram__BadgeText-sc-122uuvz-8 jMAFFL css-1aekuku"
+            style="min-width: auto;"
+          >
+            25%
+          </div>
+        </div>
+        <div
+          class="sc-bczRLJ Row-sc-4c8llc-0 Row__AutoRow-sc-4c8llc-3 cYXLjH kelnLf cSpPAk"
+          style="justify-content: space-evenly; z-index: 2;"
+          width="100%"
+        >
+          PopoverPopover
+        </div>
+      </div>
+      CurrencyLogo currency=DAI
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders single route 1`] = `
+<DocumentFragment>
+  <div
+    class="RoutingDiagram__Wrapper-sc-122uuvz-0 jMDBet css-vurnku"
+  >
+    <div
+      class="sc-bczRLJ Row-sc-4c8llc-0 RoutingDiagram__RouteContainerRow-sc-122uuvz-1 jITePI kelnLf jwxHsO"
+    >
+      CurrencyLogo currency=USDC
+      <div
+        class="sc-bczRLJ Row-sc-4c8llc-0 RoutingDiagram__RouteRow-sc-122uuvz-2 jITePI kelnLf eSvHoU"
+      >
+        <div
+          class="RoutingDiagram__DottedLine-sc-122uuvz-4 dYNhNP"
+        >
+          <svg
+            class="RoutingDiagram__DotColor-sc-122uuvz-5 laMTQP"
+          >
+            dot_line.svg
+          </svg>
+        </div>
+        <div
+          class="Badge-sc-1my0wcs-0 RoutingDiagram__OpaqueBadge-sc-122uuvz-6 ezcJLO fybKRo"
+        >
+          <div
+            class="Badge-sc-1my0wcs-0 RoutingDiagram__ProtocolBadge-sc-122uuvz-7 ezcJLO BLtmt"
+          >
+            <div
+              class="theme__TextWrapper-sc-198137d-0 fzeHho RoutingDiagram__BadgeText-sc-122uuvz-8 jMAFFL css-15li2d9"
+            >
+              V3
+            </div>
+          </div>
+          <div
+            class="theme__TextWrapper-sc-198137d-0 fzeHho RoutingDiagram__BadgeText-sc-122uuvz-8 jMAFFL css-1aekuku"
+            style="min-width: auto;"
+          >
+            100%
+          </div>
+        </div>
+        <div
+          class="sc-bczRLJ Row-sc-4c8llc-0 Row__AutoRow-sc-4c8llc-3 cYXLjH kelnLf cSpPAk"
+          style="justify-content: space-evenly; z-index: 2;"
+          width="100%"
+        >
+          Popover
+        </div>
+      </div>
+      CurrencyLogo currency=DAI
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders when no routes are provided 1`] = `
+<DocumentFragment>
+  <div
+    class="RoutingDiagram__Wrapper-sc-122uuvz-0 jMDBet css-vurnku"
+  />
+</DocumentFragment>
+`;
