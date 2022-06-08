@@ -1,6 +1,6 @@
 import { getVersionUpgrade, minVersionBump, VersionUpgrade } from '@uniswap/token-lists'
 import { SupportedChainId } from 'constants/chains'
-import { ARBITRUM_LIST, WLKR_LIST, OPTIMISM_LIST, UNSUPPORTED_LIST_URLS } from 'constants/lists'
+import { ARBITRUM_LIST, OPTIMISM_LIST, UNSUPPORTED_LIST_URLS, WLKR_LIST } from 'constants/lists'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import useInterval from 'lib/hooks/useInterval'
 import { useCallback, useEffect } from 'react'
