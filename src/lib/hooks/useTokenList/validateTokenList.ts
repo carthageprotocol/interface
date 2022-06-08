@@ -1,4 +1,4 @@
-import type { TokenInfo, TokenList } from '@uniswap/token-lists'
+import type { TokenInfo, TokenList } from '@cndllabs/token-lists'
 import type { Ajv, ValidateFunction } from 'ajv'
 
 enum ValidationSchema {
@@ -7,7 +7,7 @@ enum ValidationSchema {
 }
 
 const validator = new Promise<Ajv>(async (resolve) => {
-  const [ajv, schema] = await Promise.all([import('ajv'), import('@uniswap/token-lists/src/tokenlist.schema.json')])
+  const [ajv, schema] = await Promise.all([import('ajv'), import('@cndllabs/token-lists/src/tokenlist.schema.json')])
   const validator = new ajv.default({ allErrors: true })
     .addSchema(schema, ValidationSchema.LIST)
     // Adds a meta scheme of Pick<TokenList, 'tokens'>

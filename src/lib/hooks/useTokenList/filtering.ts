@@ -1,5 +1,5 @@
 import { NativeCurrency, Token } from '@uniswap/sdk-core'
-import { TokenInfo } from '@uniswap/token-lists'
+import { TokenInfo } from '@cndllabs/token-lists'
 
 import { isAddress } from '../../../utils'
 
