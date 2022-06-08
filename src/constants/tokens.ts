@@ -21,7 +21,7 @@ export const USDC_ROPSTEN = new Token(
 export const USDC_RINKEBY = new Token(
   SupportedChainId.RINKEBY,
   '0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b',
-  6,
+  6, 
   'tUSDC',
   'test USD//C'
 )
