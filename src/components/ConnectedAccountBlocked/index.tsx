@@ -41,7 +41,7 @@ export default function ConnectedAccountBlocked(props: ConnectedAccountBlockedPr
         </ThemedText.DarkGray>
         <ThemedText.Main fontSize={14} marginBottom={12}>
           <Trans>
-          This address is blocked on the Carthage Labs interface because it is associated with one or more
+            This address is blocked on the Carthage Labs interface because it is associated with one or more
           </Trans>{' '}
           <ExternalLink href="https://help.carthagedex.com/en/articles/6149816">
             <Trans>blocked activities</Trans>
