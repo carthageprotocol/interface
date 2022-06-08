@@ -138,6 +138,13 @@ export const DAI_POLYGON = new Token(
   'DAI',
   'Dai Stablecoin'
 )
+export const DAI_CANDLE = new Token(
+  SupportedChainId.CANDLE,
+  '0xad43669cbAC863e33449d423261E525de8da0Ff4',
+  18,
+  'DAI',
+  'Dai Stablecoin'
+)
 export const USDT_POLYGON = new Token(
   SupportedChainId.POLYGON,
   '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
