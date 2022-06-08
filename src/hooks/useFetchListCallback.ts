@@ -1,5 +1,5 @@
-import { nanoid } from '@reduxjs/toolkit'
 import { TokenList } from '@cndllabs/token-lists'
+import { nanoid } from '@reduxjs/toolkit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import getTokenList from 'lib/hooks/useTokenList/fetchTokenList'
 import resolveENSContentHash from 'lib/utils/resolveENSContentHash'

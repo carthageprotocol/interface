@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Token } from '@uniswap/sdk-core'
 import { TokenInfo } from '@cndllabs/token-lists'
+import { Currency, CurrencyAmount, Token } from '@uniswap/sdk-core'
 import { useMemo } from 'react'
 
 /** Sorts currency amounts (descending). */

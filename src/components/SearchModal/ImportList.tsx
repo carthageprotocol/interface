@@ -1,5 +1,5 @@
-import { Trans } from '@lingui/macro'
 import { TokenList } from '@cndllabs/token-lists'
+import { Trans } from '@lingui/macro'
 import { ButtonPrimary } from 'components/Button'
 import Card from 'components/Card'
 import { AutoColumn } from 'components/Column'

@@ -1,5 +1,5 @@
-import { Currency, Token } from '@uniswap/sdk-core'
 import { Tags, TokenInfo, TokenList } from '@cndllabs/token-lists'
+import { Currency, Token } from '@uniswap/sdk-core'
 
 import { isAddress } from '../../utils'
 
