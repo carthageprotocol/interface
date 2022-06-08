@@ -242,13 +242,13 @@ export default function Menu() {
               default:
                 return (
                   <MenuFlyout>
-                    <MenuItem href="https://carthagedex.com/">
+                    <MenuItem href="https://uniswap.org/">
                       <div>
                         <Trans>About</Trans>
                       </div>
                       <Info opacity={0.6} size={16} />
                     </MenuItem>
-                    <MenuItem href="https://help.carthagedex.com/">
+                    <MenuItem href="https://help.uniswap.org/">
                       <div>
                         <Trans>Help Center</Trans>
                       </div>
@@ -276,7 +276,7 @@ export default function Menu() {
                       <div>{darkMode ? <Trans>Light Theme</Trans> : <Trans>Dark Theme</Trans>}</div>
                       {darkMode ? <Moon opacity={0.6} size={16} /> : <Sun opacity={0.6} size={16} />}
                     </ToggleMenuItem>
-                    <MenuItem href="https://docs.carthagedex.com/">
+                    <MenuItem href="https://docs.uniswap.org/">
                       <div>
                         <Trans>Docs</Trans>
                       </div>

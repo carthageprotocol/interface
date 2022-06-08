@@ -76,7 +76,7 @@ export default function Earn() {
               </RowBetween>{' '}
               <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
-                href="https://carthagedex.com/blog/uni/"
+                href="https://uniswap.org/blog/uni/"
                 target="_blank"
               >
                 <ThemedText.White fontSize={14}>
