@@ -152,6 +152,13 @@ export const WBTC_POLYGON = new Token(
   'WBTC',
   'Wrapped BTC'
 )
+export const DAI_CANDLE = new Token(
+  SupportedChainId.CANDLE,
+  '0xad43669cbAC863e33449d423261E525de8da0Ff4',
+  18,
+  'DAI',
+  'Dai Stablecoin'
+)
 export const USDT = new Token(
   SupportedChainId.MAINNET,
   '0xdAC17F958D2ee523a2206206994597C13D831ec7',

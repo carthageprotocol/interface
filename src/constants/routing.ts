@@ -7,6 +7,7 @@ import {
   DAI,
   DAI_ARBITRUM_ONE,
   DAI_OPTIMISM,
+  DAI_CANDLE,
   DAI_POLYGON,
   ETH2X_FLI,
   FEI,
@@ -80,7 +81,12 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDT_POLYGON,
     WETH_POLYGON,
   ],
-  [SupportedChainId.CANDLE]: [...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.CANDLE], WETH_CANDLE],
+  [SupportedChainId.CANDLE]: [
+    ...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.CANDLE],
+    DAI_CANDLE,
+    USDC_CANDLE,
+    WETH_CANDLE,
+  ],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {
   [SupportedChainId.MAINNET]: {
@@ -161,7 +167,12 @@ export const COMMON_BASES: ChainCurrencyList = {
     USDT_POLYGON,
     WBTC_POLYGON,
   ],
-  [SupportedChainId.CANDLE]: [nativeOnChain(SupportedChainId.CANDLE), WETH_CANDLE, USDC_CANDLE],
+  [SupportedChainId.CANDLE]: [
+    nativeOnChain(SupportedChainId.CANDLE),
+    WETH_CANDLE,
+    USDC_CANDLE,
+    DAI_CANDLE,
+  ],
   [SupportedChainId.POLYGON_MUMBAI]: [
     nativeOnChain(SupportedChainId.POLYGON_MUMBAI),
     WRAPPED_NATIVE_CURRENCY[SupportedChainId.POLYGON_MUMBAI] as Token,
