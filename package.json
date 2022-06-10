@@ -34,7 +34,7 @@
     ]
   },
   "dependencies": {
-    "@cndllabs/sdk-core": "^3.0.1",
+    "@cndllabs/sdk-core": "^3.0.3",
     "@cndllabs/v3-periphery": "^1.4.2",
     "@cndllabs/v3-sdk": "^3.8.2",
     "@ethersproject/experimental": "^5.4.0",
