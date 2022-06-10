@@ -1369,6 +1369,11 @@
   resolved "https://registry.yarnpkg.com/@cndllabs/v2-core/-/v2-core-1.0.2.tgz#11a00448471f0ad16fa0e9b0cbf717366374ec70"
   integrity sha512-P+sM3wDiyfacf7FpMvEEDmza81dBLwlKyiANMea1FNuAqosW7DbtAgR/ceDvC0VA2f2geh7ZdA7Qe+aDcmTddA==
 
+"@cndllabs/v3-core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@cndllabs/v3-core/-/v3-core-1.0.3.tgz#cb0032a01df0969876534c6bcc1b63d776821e4d"
+  integrity sha512-uooUolXLqZSMtql52j8U4UNyTftHdn9oSrmJYE9xA2rtS50UOhFtFojHt23ms2JGeJnvGO5WnUyDInHZcx/Ttw==
+
 "@cndllabs/v3-core@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@cndllabs/v3-core/-/v3-core-1.0.2.tgz#0b72c62a01c3ae5a132c93e897fd9c34868b1c30"
