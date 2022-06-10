@@ -2,7 +2,7 @@ import { CurrencyAmount, Fraction, Percent, Price, Token } from '@cndllabs/sdk-c
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
 import { Trans } from '@lingui/macro'
-import { FeeAmount, Pool, Position, priceToClosestTick, TickMath } from '@uniswap/v3-sdk'
+import { FeeAmount, Pool, Position, priceToClosestTick, TickMath } from '@cndllabs/v3-sdk'
 import Badge, { BadgeVariant } from 'components/Badge'
 import { ButtonConfirmed } from 'components/Button'
 import { BlueCard, DarkGreyCard, LightCard, YellowCard } from 'components/Card'

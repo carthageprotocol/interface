@@ -1,6 +1,6 @@
 import { Currency } from '@cndllabs/sdk-core'
 import { Trans } from '@lingui/macro'
-import { FeeAmount } from '@uniswap/v3-sdk'
+import { FeeAmount } from '@cndllabs/v3-sdk'
 import Badge from 'components/Badge'
 import CurrencyLogo from 'components/CurrencyLogo'
 import DoubleCurrencyLogo from 'components/DoubleLogo'

@@ -1,6 +1,6 @@
 import { Currency, CurrencyAmount, Percent } from '@cndllabs/sdk-core'
 import { Trans } from '@lingui/macro'
-import { Position } from '@uniswap/v3-sdk'
+import { Position } from '@cndllabs/v3-sdk'
 import { useToken } from 'hooks/Tokens'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { usePool } from 'hooks/usePools'
