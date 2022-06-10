@@ -4,7 +4,7 @@ import UniswapInterfaceMulticallJson from '@cndllabs/v3-periphery/artifacts/cont
 import NonfungiblePositionManagerJson from '@cndllabs/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 import V3MigratorJson from '@cndllabs/v3-periphery/artifacts/contracts/V3Migrator.sol/V3Migrator.json'
 import { Contract } from '@ethersproject/contracts'
-import IUniswapV2PairJson from '@uniswap/v2-core/build/IUniswapV2Pair.json'
+import IUniswapV2PairJson from '@cndllabs/v2-core/build/IUniswapV2Pair.json'
 import IUniswapV2Router02Json from '@uniswap/v2-periphery/build/IUniswapV2Router02.json'
 import ARGENT_WALLET_DETECTOR_ABI from 'abis/argent-wallet-detector.json'
 import EIP_2612 from 'abis/eip_2612.json'
