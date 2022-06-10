@@ -1,5 +1,4 @@
 import { Currency, CurrencyAmount, Price, Rounding, Token } from '@cndllabs/sdk-core'
-import { Trans } from '@lingui/macro'
 import {
   encodeSqrtRatioX96,
   FeeAmount,
@@ -11,6 +10,7 @@ import {
   TickMath,
   tickToPrice,
 } from '@cndllabs/v3-sdk'
+import { Trans } from '@lingui/macro'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { usePool } from 'hooks/usePools'
 import JSBI from 'jsbi'

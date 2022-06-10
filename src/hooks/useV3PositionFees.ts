@@ -1,6 +1,6 @@
 import { Currency, CurrencyAmount } from '@cndllabs/sdk-core'
-import { BigNumber } from '@ethersproject/bignumber'
 import { Pool } from '@cndllabs/v3-sdk'
+import { BigNumber } from '@ethersproject/bignumber'
 import { useSingleCallResult } from 'lib/hooks/multicall'
 import useBlockNumber from 'lib/hooks/useBlockNumber'
 import { useEffect, useState } from 'react'
