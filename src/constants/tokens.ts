@@ -370,6 +370,28 @@ class MaticNativeCurrency extends NativeCurrency {
   }
 }
 
+function isCandle(chainId: number): chainId is SupportedChainId.CANDLE {
+  return chainId === SupportedChainId.CANDLE
+}
+
+class CandleNativeCurrency extends NativeCurrency {
+  equals(other: Currency): boolean {
+    return other.isNative && other.chainId === this.chainId
+  }
+
+  get wrapped(): Token {
+    if (!isCandle(this.chainId)) throw new Error('Not candle')
+    const wrapped = WRAPPED_NATIVE_CURRENCY[this.chainId]
+    invariant(wrapped instanceof Token)
+    return wrapped
+  }
+
+  public constructor(chainId: number) {
+    if (!isCandle(chainId)) throw new Error('Not matic')
+    super(chainId, 18, 'CNDL', 'Candle')
+  }
+}
+
 export class ExtendedEther extends Ether {
   public get wrapped(): Token {
     const wrapped = WRAPPED_NATIVE_CURRENCY[this.chainId]
@@ -390,6 +412,8 @@ export function nativeOnChain(chainId: number): NativeCurrency {
     cachedNativeCurrency[chainId] ??
     (cachedNativeCurrency[chainId] = isMatic(chainId)
       ? new MaticNativeCurrency(chainId)
+      : isCandle(chainId)
+      ? new CandleNativeCurrency(chainId)
       : ExtendedEther.onChain(chainId))
   )
 }
