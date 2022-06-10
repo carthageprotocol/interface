@@ -1330,6 +1330,18 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
+"@cndllabs/v3-periphery@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@cndllabs/v3-periphery/-/v3-periphery-1.4.2.tgz#9df96110fe3c24b3152162044d0309782552d113"
+  integrity sha512-+MVKyWmgLrmxiUpyRG0cTAUKm2HTszaYOj0+WAaQTlcscT/VbBQDpOqbLBEEYglC82cQEuxX40CYCSQMnDf0ww==
+  dependencies:
+    "@cndllabs/v3-core" "^1.0.2"
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "1.0.1"
+    base64-sol "1.0.1"
+    hardhat-watcher "^2.1.1"
+
 "@cndllabs/v3-sdk@^3.8.2":
   version "3.8.2"
   resolved "https://registry.npmjs.org/@cndllabs/v3-sdk/-/v3-sdk-3.8.2.tgz"
