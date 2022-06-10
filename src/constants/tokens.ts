@@ -410,8 +410,8 @@ const cachedNativeCurrency: { [chainId: number]: NativeCurrency } = {}
 export function nativeOnChain(chainId: number): NativeCurrency {
   return (
     cachedNativeCurrency[chainId] ??
-    (cachedNativeCurrency[chainId] = isMatic(chainId)
-      ? new MaticNativeCurrency(chainId)
+    (cachedNativeCurrency[chainId] = isCandle(chainId)
+      ? new CandleNativeCurrency(chainId)
       : ExtendedEther.onChain(chainId))
   )
 }
