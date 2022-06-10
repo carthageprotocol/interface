@@ -1301,6 +1301,18 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@cndllabs/sdk-core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@cndllabs/sdk-core/-/sdk-core-3.0.1.tgz#dd00aa466882c8eb7f496d93e510b0e52ea781ec"
+  integrity sha512-HX6lEy40+J5gbAwHV8ka7grBgWuYkTcvbXqu0W50+mOkzYqci9SeDmx3IupEDJuPskUN/4DioHlL3CBbdWRkPA==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@cndllabs/v3-core@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@cndllabs/v3-core/-/v3-core-1.0.2.tgz#0b72c62a01c3ae5a132c93e897fd9c34868b1c30"
@@ -18523,8 +18535,10 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
