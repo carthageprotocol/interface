@@ -169,6 +169,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "@babel/helper-get-function-arity": "^7.16.7",
     "@babel/runtime": "^7.17.0",
     "@cndllabs/sdk-core": "^3.0.1",
     "@cndllabs/v3-periphery": "^1.4.2",
