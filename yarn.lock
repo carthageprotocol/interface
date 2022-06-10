@@ -1364,6 +1364,23 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
+"@cndllabs/v3-core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@cndllabs/v3-core/-/v3-core-1.0.2.tgz#0b72c62a01c3ae5a132c93e897fd9c34868b1c30"
+  integrity sha512-3msE3SYd3GgoJHlDK49QCNTnBrDLUYh+vq89nrHpa9Xwj9StSRGLTYR3pINtB8LybkofA+dQd649u+/ccirEOw==
+
+"@cndllabs/v3-periphery@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@cndllabs/v3-periphery/-/v3-periphery-1.4.2.tgz#9df96110fe3c24b3152162044d0309782552d113"
+  integrity sha512-+MVKyWmgLrmxiUpyRG0cTAUKm2HTszaYOj0+WAaQTlcscT/VbBQDpOqbLBEEYglC82cQEuxX40CYCSQMnDf0ww==
+  dependencies:
+    "@cndllabs/v3-core" "^1.0.2"
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "1.0.1"
+    base64-sol "1.0.1"
+    hardhat-watcher "^2.1.1"
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -3208,6 +3225,11 @@
   version "3.4.1-solc-0.7-2"
   resolved "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-3.4.1-solc-0.7-2.tgz"
   integrity sha512-tAG9LWg8+M2CMu7hIsqHPaTyG4uDzjr6mhvH96LvOpLZZj6tgzTluBt+LsCf1/QaYrlis6pITvpIaIhE+iZB+Q==
+
+"@openzeppelin/contracts@3.4.2-solc-0.7":
+  version "3.4.2-solc-0.7"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.2-solc-0.7.tgz#38f4dbab672631034076ccdf2f3201fab1726635"
+  integrity sha512-W6QmqgkADuFcTLzHL8vVoNBtkwjvQRpYIAom7KiUNoLKghyx3FgH0GBjt8NRvigV1ZmMOBllvE1By1C+bi8WpA==
 
 "@pedrouid/environment@^1.0.1":
   version "1.0.1"
