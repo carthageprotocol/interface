@@ -1313,15 +1313,28 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@cndllabs/token-lists@^1.0.0-beta.28":
-  version "1.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@cndllabs/token-lists/-/token-lists-1.0.0-beta.28.tgz#7a5f8e99fdedd321af9b1c8ae871995839900cc7"
-  integrity sha512-giZY0hCs3FCavtfJpgCqM1TVif4G22spiEh/vlocXxrEbOaFooaVNCmlYPfiE+VOUiQtmQqAEYpjJB4/Mm9MFg==
+"@cndllabs/token-lists@^1.0.0-beta.29":
+  version "1.0.0-beta.29"
+  resolved "https://registry.yarnpkg.com/@cndllabs/token-lists/-/token-lists-1.0.0-beta.29.tgz#3ea2a1926f25a3f3a6e80aea025c81fd79f4faef"
+  integrity sha512-GAsYaylqDNtM7Xjv8xlPOgSBnyMggGh7ZM1Pi3YPMPkaedtRcxz1UcsluH0nHqZtxY5O1+3XsDIERsW+fi5/dQ==
 
 "@cndllabs/v3-core@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@cndllabs/v3-core/-/v3-core-1.0.2.tgz#0b72c62a01c3ae5a132c93e897fd9c34868b1c30"
   integrity sha512-3msE3SYd3GgoJHlDK49QCNTnBrDLUYh+vq89nrHpa9Xwj9StSRGLTYR3pINtB8LybkofA+dQd649u+/ccirEOw==
+
+"@cndllabs/v3-sdk@^3.8.2":
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/@cndllabs/v3-sdk/-/v3-sdk-3.8.2.tgz#ae4d7afa957b035922fb71e8d347d6cc34f85313"
+  integrity sha512-/7ugphi/JM1roTVypPHS59EWGAbPEDem7OlRHbYW88tYiK12XZGZUoTUUr8YkhwCy4NIdIpeHHguzxQPL88s3g==
+  dependencies:
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@uniswap/sdk-core" "^3.0.1"
+    "@uniswap/v3-periphery" "^1.1.1"
+    "@uniswap/v3-staker" "1.0.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
