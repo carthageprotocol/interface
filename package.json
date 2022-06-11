@@ -172,7 +172,7 @@
   "dependencies": {
     "@babel/runtime": "^7.17.0",
     "@cndllabs/sdk-core": "^3.0.1",
-    "@cndllabs/token-lists": "^1.0.0-beta.28",
+    "@cndllabs/token-lists": "^1.0.0-beta.29",
     "@fontsource/ibm-plex-mono": "^4.5.1",
     "@fontsource/inter": "^4.5.1",
     "@popperjs/core": "^2.4.4",
