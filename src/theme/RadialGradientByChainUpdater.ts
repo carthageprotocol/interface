@@ -43,6 +43,12 @@ export default function RadialGradientByChainUpdater(): null {
         const arbitrumDarkGradient = 'radial-gradient(150% 100% at 50% 0%, #0A294B 0%, #221E30 50%, #1F2128 100%)'
         backgroundRadialGradientElement.style.background = darkMode ? arbitrumDarkGradient : arbitrumLightGradient
         break
+      case SupportedChainId.CANDLE:
+        setBackground(backgroundResetStyles)
+        const candleLightGradient = 'radial-gradient(150% 100% at 50% 0%, #CDE8FB 0%, #FCF3F9 50%, #FFFFFF 100%)'
+        const candleDarkGradient = 'radial-gradient(150% 100% at 50% 0%, #0A294B 0%, #221E30 50%, #1F2128 100%)'
+        backgroundRadialGradientElement.style.background = darkMode ? candleDarkGradient : candleLightGradient
+        break
       case SupportedChainId.OPTIMISM:
       case SupportedChainId.OPTIMISTIC_KOVAN:
         setBackground(backgroundResetStyles)
