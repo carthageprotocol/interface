@@ -48,7 +48,7 @@ jobs:
 
       - name: Pin to IPFS
         id: upload
-        uses: anantaramdas/ipfs-pinata-deploy-action@39bbda1ce1fe24c69c6f57861b8038278d53688d
+        uses: anantaramdas/ipfs-pinata-deploy-action@9f9c3b42b5d360352c4b768d98aff1309d62faa0
         with:
           pin-name: Uniswap ${{ needs.bump_version.outputs.new_tag }}
           path: './build'
