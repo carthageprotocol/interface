@@ -173,6 +173,13 @@ export const DAI_CANDLE = new Token(
   'DAI',
   'Dai Stablecoin'
 )
+export const USDT_CANDLE = new Token(
+  SupportedChainId.CANDLE,
+  '0x54D94162d5d7DAa54dBdB2D37F8cdA71D7d6795c',
+  6,
+  'USDT',
+  'Tether USD'
+)
 export const USDT = new Token(
   SupportedChainId.MAINNET,
   '0xdAC17F958D2ee523a2206206994597C13D831ec7',
