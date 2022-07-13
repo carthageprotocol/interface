@@ -185,7 +185,7 @@ export default function Pool() {
           <BookOpen size={16} />
         </MenuItem>
       ),
-      link: 'https://docs.uniswap.org/',
+      link: 'https://docs.carthagedex.com/',
       external: true,
     },
   ]
