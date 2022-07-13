@@ -151,7 +151,7 @@ export const CHAIN_INFO: ChainInfoMap = {
     bridge: 'https://bridge.candlelabs.org',
     docs: 'https://candlelabs.org/',
     explorer: 'https://candleexplorer.com/',
-    infoLink: 'https://info.carthage.org/#/candle/',
+    infoLink: 'https://info.carthagedex.com/#/candle/',
     label: 'Candle',
     logoUrl: candleLogoUrl,
     nativeCurrency: { name: 'Candle', symbol: 'CNDL', decimals: 18 },
