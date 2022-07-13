@@ -17,12 +17,11 @@ import {
   renBTC,
   rETH2,
   sETH2,
+  SHIBA_CANDLE,
   SWISE,
   TRIBE,
   USDC_ARBITRUM,
   USDC_CANDLE,
-  SHIBA_CANDLE,
-  ZED_CANDLE,
   USDC_MAINNET,
   USDC_OPTIMISM,
   USDC_POLYGON,
@@ -38,6 +37,7 @@ import {
   WETH_POLYGON,
   WETH_POLYGON_MUMBAI,
   WRAPPED_NATIVE_CURRENCY,
+  ZED_CANDLE,
 } from './tokens'
 
 type ChainTokenList = {
@@ -171,7 +171,14 @@ export const COMMON_BASES: ChainCurrencyList = {
     USDT_POLYGON,
     WBTC_POLYGON,
   ],
-  [SupportedChainId.CANDLE]: [nativeOnChain(SupportedChainId.CANDLE), WETH_CANDLE, USDC_CANDLE, SHIBA_CANDLE, ZED_CANDLE,DAI_CANDLE],
+  [SupportedChainId.CANDLE]: [
+    nativeOnChain(SupportedChainId.CANDLE),
+    WETH_CANDLE,
+    USDC_CANDLE,
+    SHIBA_CANDLE,
+    ZED_CANDLE,
+    DAI_CANDLE,
+  ],
   [SupportedChainId.POLYGON_MUMBAI]: [
     nativeOnChain(SupportedChainId.POLYGON_MUMBAI),
     WRAPPED_NATIVE_CURRENCY[SupportedChainId.POLYGON_MUMBAI] as Token,
