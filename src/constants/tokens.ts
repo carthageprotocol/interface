@@ -46,14 +46,14 @@ export const USDC_CANDLE = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_SHIBA = new Token(
+export const SHIBA_CANDLE = new Token(
   SupportedChainId.CANDLE,
   '0xa018034190943D6c8E10218d9F8E8Af491272411',
   18,
   'SHIBA',
   'SHIBA'
 )
-export const USDC_ZED = new Token(
+export const ZED_CANDLE = new Token(
   SupportedChainId.CANDLE,
   '0x5c17C48F127D6aE5794b2404F1F8A5CeED419eDf',
   6,
