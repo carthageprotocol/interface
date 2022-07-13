@@ -1,4 +1,4 @@
-import { Currency } from '@uniswap/sdk-core'
+import { Currency } from '@cndllabs/sdk-core'
 import { SupportedChainId } from 'constants/chains'
 import useHttpLocations from 'hooks/useHttpLocations'
 import { useMemo } from 'react'
@@ -39,7 +39,7 @@ function getTokenLogoURI(address: string, chainId: SupportedChainId = SupportedC
   const networkName = chainIdToNetworkName(chainId)
   const networksWithUrls = [SupportedChainId.ARBITRUM_ONE, SupportedChainId.MAINNET, SupportedChainId.OPTIMISM]
   if (networksWithUrls.includes(chainId)) {
-    return `https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/${networkName}/assets/${address}/logo.png`
+    return `https://raw.githubusercontent.com/carthageprotocol/assets/master/blockchains/${networkName}/assets/${address}/logo.png`
   }
 }
 

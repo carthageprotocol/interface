@@ -1,6 +1,6 @@
 import { skipToken } from '@reduxjs/toolkit/query/react'
-import { Currency } from '@uniswap/sdk-core'
-import { FeeAmount, nearestUsableTick, Pool, TICK_SPACINGS, tickToPrice } from '@uniswap/v3-sdk'
+import { Currency } from '@cndllabs/sdk-core'
+import { FeeAmount, nearestUsableTick, Pool, TICK_SPACINGS, tickToPrice } from '@cndllabs/v3-sdk'
 import { SupportedChainId } from 'constants/chains'
 import { ZERO_ADDRESS } from 'constants/misc'
 import JSBI from 'jsbi'
@@ -17,7 +17,6 @@ const PRICE_FIXED_DIGITS = 8
 const CHAIN_IDS_MISSING_SUBGRAPH_DATA = [
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,
-  SupportedChainId.CANDLE,
 ]
 
 export interface TickData {
