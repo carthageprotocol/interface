@@ -401,7 +401,7 @@ class CandleNativeCurrency extends NativeCurrency {
   }
 
   public constructor(chainId: number) {
-    if (!isCandle(chainId)) throw new Error('Not matic')
+    if (!isCandle(chainId)) throw new Error('Not cndl')
     super(chainId, 18, 'CNDL', 'Candle')
   }
 }

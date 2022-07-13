@@ -21,6 +21,8 @@ import {
   TRIBE,
   USDC_ARBITRUM,
   USDC_CANDLE,
+  SHIBA_CANDLE,
+  ZED_CANDLE,
   USDC_MAINNET,
   USDC_OPTIMISM,
   USDC_POLYGON,
@@ -86,6 +88,8 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     DAI_CANDLE,
     USDC_CANDLE,
     WETH_CANDLE,
+    SHIBA_CANDLE,
+    ZED_CANDLE,
   ],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {
@@ -167,7 +171,7 @@ export const COMMON_BASES: ChainCurrencyList = {
     USDT_POLYGON,
     WBTC_POLYGON,
   ],
-  [SupportedChainId.CANDLE]: [nativeOnChain(SupportedChainId.CANDLE), WETH_CANDLE, USDC_CANDLE, DAI_CANDLE],
+  [SupportedChainId.CANDLE]: [nativeOnChain(SupportedChainId.CANDLE), WETH_CANDLE, USDC_CANDLE, SHIBA_CANDLE, ZED_CANDLE,DAI_CANDLE],
   [SupportedChainId.POLYGON_MUMBAI]: [
     nativeOnChain(SupportedChainId.POLYGON_MUMBAI),
     WRAPPED_NATIVE_CURRENCY[SupportedChainId.POLYGON_MUMBAI] as Token,
