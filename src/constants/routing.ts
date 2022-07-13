@@ -28,6 +28,7 @@ import {
   USDT,
   USDT_ARBITRUM_ONE,
   USDT_OPTIMISM,
+  USDT_CANDLE,
   USDT_POLYGON,
   WBTC,
   WBTC_ARBITRUM_ONE,
@@ -88,6 +89,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     DAI_CANDLE,
     USDC_CANDLE,
     WETH_CANDLE,
+    USDT_CANDLE,
     SHIBA_CANDLE,
     ZED_CANDLE,
   ],
@@ -178,6 +180,7 @@ export const COMMON_BASES: ChainCurrencyList = {
     SHIBA_CANDLE,
     ZED_CANDLE,
     DAI_CANDLE,
+    USDT_CANDLE,
   ],
   [SupportedChainId.POLYGON_MUMBAI]: [
     nativeOnChain(SupportedChainId.POLYGON_MUMBAI),
