@@ -154,7 +154,6 @@ export const CHAIN_INFO: ChainInfoMap = {
     infoLink: 'https://info.carthagedex.com/#/candle/',
     label: 'Candle',
     logoUrl: candleLogoUrl,
-    defaultListUrl: WLKR_LIST,
     nativeCurrency: { name: 'Candle', symbol: 'CNDL', decimals: 18 },
   },
   [SupportedChainId.POLYGON]: {
