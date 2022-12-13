@@ -5542,10 +5542,10 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/token-lists@^1.0.0-beta.25", "@uniswap/token-lists@^1.0.0-beta.29":
-  version "1.0.0-beta.29"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.29.tgz#7be3b62aeab84c710a153a115df3bb8480027684"
-  integrity sha512-b19mDY5G94GW9tKjvoNEbdApWM1GNahh5EFYs7LsBE7J3r7qNsJ6MqZYoPg73KS6GOrp8/2XdcSXRBUt6NHjZg==
+"@uniswap/token-lists@^1.0.0-beta.25", "@uniswap/token-lists@^1.0.0-beta.31":
+  version "1.0.0-beta.31"
+  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.31.tgz#ff3852bd505ec7b4c276625c762ea79a93a919ec"
+  integrity sha512-BQVoelKCRf64IToPEs1wxiXOnhr/ukwPOF78XG11PrTAOL4F8umjYKFb8ZPv1/dIJsPaC7GhLSriEqyp94SasQ==
 
 "@uniswap/v2-core@1.0.0":
   version "1.0.0"
