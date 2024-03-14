@@ -40,7 +40,7 @@ jobs:
 
       - name: Run eslint w/ autofix
         if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
-        uses: wearerequired/lint-action@36c7e6689e80d785d27a22f71d970f3a3b4fcb70
+        uses: wearerequired/lint-action@2436be9b7d59fa599beb0b0b0a364bff2764ae3b
         with:
           github_token: ${{ secrets.github_token }}
           eslint: true
